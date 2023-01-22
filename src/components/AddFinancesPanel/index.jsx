@@ -1,8 +1,13 @@
-import TotalMoney from "../TotalMoney";
-import { v4 as uuidv4 } from "uuid";
+// React Hooks
 import { useState } from "react";
+
+// Components
+import TotalMoney from "../TotalMoney";
 import AddFinancesPanelContainer from "./AddFinancesPanelContainer";
 import { toast } from "react-toastify";
+
+// Libs
+import { v4 as uuidv4 } from "uuid";
 
 const AddFinancesPanel = ({ listTransactions, setListTransactions, theme }) => {
   const sendRelease = (listTransactions) => {

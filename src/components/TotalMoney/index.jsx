@@ -1,3 +1,4 @@
+// Components
 import { TotalMoneyContainer } from "./TotalMoneyContainer";
 
 const TotalMoney = ({ listTransactions, theme }) => {

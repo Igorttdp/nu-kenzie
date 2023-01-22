@@ -1,3 +1,4 @@
+// Components
 import emptyCard from "./assets/emptyCard.svg";
 import EmptyTransactionsContainer from "./EmptyTransactionsContainer";
 import TransactionsContainer from "./TransactionsContainer";
@@ -32,7 +33,11 @@ const Releases = ({ listTransactions, deleteTransaction, filter, theme }) => {
       <TransactionsContainer theme={theme} className="transactions__list">
         {enter.map((el, i) => {
           return (
-            <li aria-labelledby={el.id} className={`transaction ${el.type}`} key={i}>
+            <li
+              aria-labelledby={el.id}
+              className={`transaction ${el.type}`}
+              key={i}
+            >
               <div className={`transitionColor ${el.type}`}></div>
               <div className="transaction__description">
                 <h3>{el.description}</h3>
@@ -66,7 +71,11 @@ const Releases = ({ listTransactions, deleteTransaction, filter, theme }) => {
       <TransactionsContainer theme={theme} className="transactions__list">
         {out.map((el, i) => {
           return (
-            <li aria-labelledby={el.id} className={`transaction ${el.type}`} key={i}>
+            <li
+              aria-labelledby={el.id}
+              className={`transaction ${el.type}`}
+              key={i}
+            >
               <div className={`transitionColor ${el.type}`}></div>
               <div className="transaction__description">
                 <h3>{el.description}</h3>
@@ -87,7 +96,11 @@ const Releases = ({ listTransactions, deleteTransaction, filter, theme }) => {
     <TransactionsContainer theme={theme} className="transactions__list">
       {listTransactions.map((el, i) => {
         return (
-          <li aria-labelledby={el.id} className={`transaction ${el.type}`} key={i}>
+          <li
+            aria-labelledby={el.id}
+            className={`transaction ${el.type}`}
+            key={i}
+          >
             <div className={`transitionColor ${el.type}`}></div>
             <div className="transaction__description">
               <h3>{el.description}</h3>

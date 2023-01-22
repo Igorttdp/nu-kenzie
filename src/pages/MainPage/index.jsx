@@ -1,17 +1,24 @@
+// React Hooks
+import { useState } from "react";
+import { useEffect } from "react";
+
+// Components
+import AddFinancesPanel from "../../components/AddFinancesPanel";
+import SumaryFilterBtns from "../../components/SumaryFilterBtns";
+import LoginContainer from "./LoginContainer";
+import HomeContainer from "./HomeContainer";
+import HomeSumary from "./HomeSumary";
+import StyledToastContainer from "../../styles/StyledToastContainer";
+import SwitchButton from "../../components/Switch";
+
+// Images
 import NuKenzie from "./assets/NuKenzie.svg";
 import Releases from "../../components/Releases";
 import illustration from "./assets/illustration.svg";
 import NuKenzie_lightmode from "./assets/NuKenzie_lightmode.svg";
-import { useState } from "react";
-import AddFinancesPanel from "../../components/AddFinancesPanel";
-import SumaryFilterBtns from "../../components/SumaryFilterBtns";
-import { useEffect } from "react";
-import LoginContainer from "./LoginContainer";
-import HomeContainer from "./HomeContainer";
-import HomeSumary from "./HomeSumary";
+
+// Styles
 import "react-toastify/dist/ReactToastify.css";
-import StyledToastContainer from "../../styles/StyledToastContainer";
-import SwitchButton from "../../components/Switch";
 
 const MainPage = ({ isLoggedIn, login, logout }) => {
   const deleteTransaction = (e) => {

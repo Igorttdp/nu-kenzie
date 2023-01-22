@@ -1,5 +1,10 @@
-import * as Switch from "@radix-ui/react-switch";
+//React Hooks
 import { useEffect, useState } from "react";
+
+// Components
+import * as Switch from "@radix-ui/react-switch";
+
+// Styles
 import "./style.css";
 
 const SwitchButton = ({ setTheme, theme }) => {
