@@ -47,9 +47,9 @@
 <br/>
 <hr/>
 <br/>
-<div style="">
+<div style="text-align: center;">
     <img src="./assets/nukenzie-financas.png" />
-    <p>Na parte mais centralizada temos a aba do <strong>Resumo Financeiro</strong> onde conseguimos ver todas as nossas movimentações. Aqui podemos filtrar entre Entradas ou Despesas e excluir alguma movimentação.</p>
+    <p style="text-align: left;">Na parte mais centralizada temos a aba do <strong>Resumo Financeiro</strong> onde conseguimos ver todas as nossas movimentações. Aqui podemos filtrar entre Entradas ou Despesas e excluir alguma movimentação.</p>
 </div>
 <br/>
 

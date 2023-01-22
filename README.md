@@ -47,9 +47,9 @@
 <br/>
 <hr/>
 <br/>
-<div style="">
+<div style="text-align: center;">
     <img src="./assets/nukenzie-financas.png" />
-    <p>In the most centralized part we have the <strong>Financial Summary</strong> tab where we can see all our movements. Here we can filter between Income or Expenses and exclude some movement.</p>
+    <p style="text-align: left;">In the most centralized part we have the <strong>Financial Summary</strong> tab where we can see all our movements. Here we can filter between Income or Expenses and exclude some movement.</p>
 </div>
 <br/>
 
