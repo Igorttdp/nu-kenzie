@@ -68,5 +68,13 @@
 <h3>User Costumization and Local Storage</h3>
 <p>The application saves the user's definitions and their movements in the browser's Local Storage, making it more consistent and "real".</p>
 <br/>
+
+<h3>Responsiveness</h3>
+<table>
+    <tr>
+        <td><img src="./assets/nukenzie-mobileScreen.png" /></td>
+        <td><img src="./assets/nukenzie-tabletScreen.png" /></td>
+    </tr>
+</table>
 <hr/>
 <h2>Link of Project: <a href="https://nu-kenzie-delta.vercel.app/" target="blank_">Nu Kenzie</a></h2>
