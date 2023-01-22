@@ -2,9 +2,13 @@
 
 <h2>Preview</h2>
 <hr/>
-<div style="display: flex; gap: 10px">
-    <img src="./assets/nukenzie-home.png" width="50%" />
-    <img src="./assets/nukenzie-main.png" width="50%" />
+<div>
+<table>
+    <tr>
+        <td><img src="./assets/nukenzie-home.png" /></td>
+        <td><img src="./assets/nukenzie-main.png" /></td>
+    </tr>
+</table>
 </div>
 <br/>
 
@@ -33,10 +37,12 @@
 <h2>How it Works</h2>
 <hr/>
 <br/>
-<div style="display: flex; gap: 20px;">
-    <img src="./assets/nukenzie-adicionarFinancas.png" />
-    <p>On the left side you can find the panel to add your finances. In the example on the side, we insert a description, the amount, and the type of financial transaction (Earnings or Expenses). After filling it out completely, click <strong>Insert Amount</strong> for the financial transactions to appear on the <strong>Transactions tab</strong>.</p>
-</div>
+<table>
+    <tr>
+    <td width="50%"><img width="100%" src="./assets/nukenzie-adicionarFinancas.png" /></td>
+    <td><p>On the left side you can find the panel to add your finances. In the example on the side, we insert a description, the amount, and the type of financial transaction (Earnings or Expenses). After filling it out completely, click <strong>Insert Amount</strong> for the financial transactions to appear on the <strong>Transactions tab</strong>.</p></td>
+    </tr>
+</table>
 
 <br/>
 <hr/>

@@ -3,8 +3,12 @@
 <h2>Pré Visualização</h2>
 <hr/>
 <div style="display: flex; gap: 10px">
-    <img src="./assets/nukenzie-home.png" width="50%" />
-    <img src="./assets/nukenzie-main.png" width="50%" />
+    <table>
+    <tr>
+        <td><img src="./assets/nukenzie-home.png" /></td>
+        <td><img src="./assets/nukenzie-main.png" /></td>
+    </tr>
+</table>
 </div>
 <br/>
 
@@ -33,10 +37,12 @@
 <h2>Como Funciona</h2>
 <hr/>
 <br/>
-<div style="display: flex; gap: 20px;">
-    <img src="./assets/nukenzie-adicionarFinancas.png" />
-    <p>No lado esquerdo você encontra o painel para adicionar suas finanças. No exemplo ao lado, inserimos uma descrição, o valor, e o tipo de movimentação financeira (Entrada ou Despesa). Após o preenchimento completo, clique em <strong>Inserir Valor</strong> para a movimentação financeira aparecer na aba de <strong>Lançamentos</strong>.</p>
-</div>
+<table>
+    <tr>
+        <td width="50%"><img src="./assets/nukenzie-adicionarFinancas.png" /></td>
+        <td><p>No lado esquerdo você encontra o painel para adicionar suas finanças. No exemplo ao lado, inserimos uma descrição, o valor, e o tipo de movimentação financeira (Entrada ou Despesa). Após o preenchimento completo, clique em <strong>Inserir Valor</strong> para a movimentação financeira aparecer na aba de <strong>Lançamentos</strong>.</p></td>
+    </tr>
+</table>
 
 <br/>
 <hr/>
