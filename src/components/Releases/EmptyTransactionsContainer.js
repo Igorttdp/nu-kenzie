@@ -14,9 +14,6 @@ const EmptyTransactionsContainer = styled.div`
   img {
     width: 100%;
 
-    box-shadow: ${(props) =>
-      props.theme === true ? "0px 0px 8px 5px #723350;" : ""};
-
     :nth-child(2) {
       animation: emptyCards 3s 1s infinite;
     }

@@ -12,7 +12,7 @@ const HomeContainer = styled.div`
     background-color: ${(props) =>
       props.theme === true ? "#212529" : "#f8f9fa"};
     box-shadow: ${(props) =>
-      props.theme === true ? "#2c0f0f 0px 4px 20px" : "#bbb 0px 4px 20px"};
+      props.theme === true ? "#404040 0px 4px 20px" : "#bbb 0px 4px 20px"};
     transition: all 0.3s;
 
     nav {
