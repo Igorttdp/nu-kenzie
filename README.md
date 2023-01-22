@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<cite>Para README em Português, <strong><a href="./README-ptbr.md">clique aqui</a></strong></cite>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Preview</h2>
+<hr/>
+<div style="display: flex; gap: 10px">
+    <img src="./assets/nukenzie-home.png" width="50%" />
+    <img src="./assets/nukenzie-main.png" width="50%" />
+</div>
+<br/>
 
-## Available Scripts
+<h1>About</h1>
 
-In the project directory, you can run:
+<p>Nu Kenzie is an application that aims to centralize the control of your finances. The application allows the user to insert a card with the description and value of the economic movement, be it earnings or expense. There is also a filter to show only expenses or earnings.</p>
+<br/>
 
-### `yarn start`
+<h2>Project Structuring and Technologies</h2>
+<hr/>
+<p>Nu Kenzie is a simple application and my first initial experience with React in terms of project. It used concepts of <strong>React Hooks</strong><strong>Conditional Rendering</strong>, and <strong>Componentization</strong>.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="./assets/nukenzie-painel.png" />
+<br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Technologies / Libraries</h3>
+<ul>
+    <li>React</li>
+    <li>React-Toastify</li>
+    <li>Styled-Components</li>
+    <li>UuidV4</li>
+</ul>
 
-### `yarn test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>How it Works</h2>
+<hr/>
+<br/>
+<div style="display: flex; gap: 20px;">
+    <img src="./assets/nukenzie-adicionarFinancas.png" />
+    <p>On the left side you can find the panel to add your finances. In the example on the side, we insert a description, the amount, and the type of financial transaction (Earnings or Expenses). After filling it out completely, click <strong>Insert Amount</strong> for the financial transactions to appear on the <strong>Transactions tab</strong>.</p>
+</div>
 
-### `yarn build`
+<br/>
+<hr/>
+<br/>
+<div style="">
+    <img src="./assets/nukenzie-financas.png" />
+    <p>In the most centralized part we have the <strong>Financial Summary</strong> tab where we can see all our movements. Here we can filter between Income or Expenses and exclude some movement.</p>
+</div>
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Extras Features</h2>
+<hr/>
+<h3>Darkmode</h3>
+<div>
+    <img src="./assets/nukenzie-botaoDarkmodeOff.png" />
+    <img src="./assets/nukenzie-botaoDarkmodeOn.png" />
+    <br/>
+    <img src="./assets/nukenzie-darkmode.png" />
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3>User Costumization and Local Storage</h3>
+<p>The application saves the user's definitions and their movements in the browser's Local Storage, making it more consistent and "real".</p>
+<br/>
+<hr/>
+<h2>Link of Project: <a href="https://nu-kenzie-delta.vercel.app/" target="blank_">Nu Kenzie</a></h2>
