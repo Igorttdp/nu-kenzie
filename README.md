@@ -19,7 +19,7 @@
 
 <h2>Project Structuring and Technologies</h2>
 <hr/>
-<p>Nu Kenzie is a simple application and my first initial experience with React in terms of project. It used concepts of <strong>React Hooks</strong><strong>Conditional Rendering</strong>, and <strong>Componentization</strong>.</p>
+<p>Nu Kenzie is a simple application and my first initial experience with React in terms of project. It used concepts of <strong>React Hooks</strong>, <strong>Conditional Rendering</strong>, and <strong>Componentization</strong>.</p>
 
 <img src="./assets/nukenzie-painel.png" />
 <br/><br/>
